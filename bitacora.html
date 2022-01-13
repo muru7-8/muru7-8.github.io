@@ -1,91 +1,124 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
-  <title>MURU 7.8</title>
-  <script src="index.js"></script>
-  <!-- ... -->
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>MURU 7.8</title>
+    <script src="index.js"></script>
+    <!-- ... -->
+  </head>
 
-<body class="max-w-screen-xl m-auto" style="font-family: 'Exo', sans-serif;">
-
-<!-- HEADER INSERTADO -->  
-<div id="header"></div>
-<!-- HEADER INSERTADO -->
-
+  <body class="max-w-screen-lg m-auto" style="font-family: 'Exo', sans-serif">
+    <!-- HEADER INSERTADO -->
+    <div id="header"></div>
+    <!-- HEADER INSERTADO -->
 
     <h3 class="text-center mt-5 font-bold text-xl">BITÁCORA</h3>
-    <hr class="mt-2 w-1/4 m-auto">
+    <hr class="mt-2 w-1/4 m-auto" />
+    <br>
 
+    <div class="grid grid-cols-1 md:grid-cols-2">
+
+
+      <!-- TEXTO IZQUIERDA - IMG DERECHA -->
+      <div class="text-right m-2 text-sm">
+        <h3 class="font-bold text-base">2022 - Bienal de La Habana</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem nisi
+          culpa earum repellendus vitae voluptatem. Eaque similique dolores,
+          magni deserunt veniam ab consequuntur ipsum explicabo aspernatur
+          blanditiis quo accusantium facilis!
+        </p>
+        <br>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem nisi
+          culpa earum repellendus vitae voluptatem. Eaque similique dolores,
+          magni deserunt veniam ab consequuntur ipsum explicabo aspernatur
+          blanditiis quo accusantium facilis!
+        </p>
+        <br>
+        <a
+          class="font-bold text-gray-600 hover:text-gray-300" 
+          href="">LINK a otro lugar</a>
+      </div>
+
+      <div class="w-full h-60 m-2">
+        <img
+          class="object-cover h-full w-full"
+          src="./assets/img/cristalizaciones.jpeg"
+          alt=""
+        />
+        <br>
+      </div>
+      <!-- TEXTO IZQUIERDA - IMG DERECHA -->
+
+
+
+
+
+
+
+      <!-- TEXTO DERECHA - IMG IZQUIERDA -->
+      <div class="m-2">
+        <img
+          src="https://dam.ngenespanol.com/wp-content/uploads/2019/11/LA-habana-50-anos-770x395.png"
+          alt=""
+        />
+        <br>
+      </div>
+
+      <div class="text-left m-2 text-sm">
+        <h3 class="font-bold text-base">2022 - Bienal de La Habana</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem nisi
+          culpa earum repellendus vitae voluptatem. Eaque similique dolores,
+          magni deserunt veniam ab consequuntur ipsum explicabo aspernatur
+          blanditiis quo accusantium facilis!
+        </p>
+        <br>
+      </div>
+      <!-- TEXTO DERECHA - IMG IZQUIERDA -->
+
+
+            <!-- TEXTO IZQUIERDA - IMG DERECHA -->
+            <div class="text-right m-2 text-sm">
+              <h3 class="font-bold text-base">2021 - Premio FUSION</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem nisi
+                culpa earum repellendus vitae voluptatem. Eaque similique dolores,
+                magni deserunt veniam ab consequuntur ipsum explicabo aspernatur
+                blanditiis quo accusantium facilis!
+              </p>
+              <br>
+            </div>
+      
+            <div class="m-2">
+              <img
+                src="https://dam.ngenespanol.com/wp-content/uploads/2019/11/LA-habana-50-anos-770x395.png"
+                alt=""
+              />
+              <br>
+            </div>
+            <!-- TEXTO IZQUIERDA - IMG DERECHA -->
     
-<div class="grid grid-cols-1 md:grid-cols-1">
+    
+    
+    </div>
 
-  <div class="text-center m-2 text-sm">    
-    <h3 class="font-bold text-base">2022</h3>   
-    <hr class="mt-2 w-1/4 m-auto">
-    <br> 
-    <ul>
-      <li> <b>NOMBRE DEL LUGAR</b>  - obra, <span class="text-gray-400">donde expusimos / Ciudad, Pais</span></li>
-      <li> <b>NOMBRE DEL LUGAR</b>  - obra, <span class="text-gray-400">donde expusimos / Ciudad, Pais</span></li>
-      <br>
-      <br>
-    </ul>
-
-    <h3 class="font-bold text-base">2021</h3>   
-    <hr class="mt-2 w-1/4 m-auto">
-    <br> 
-    <ul>
-      <li> <b>NOMBRE DEL LUGAR</b>  - obra, <span class="text-gray-400">donde expusimos / Ciudad, Pais</span></li>
-      <li> <b>NOMBRE DEL LUGAR</b>  - obra, <span class="text-gray-400">donde expusimos / Ciudad, Pais</span></li>
-      <br>
-      <br>
-    </ul>
-
-    <h3 class="font-bold text-base">2020</h3>   
-    <hr class="mt-2 w-1/4 m-auto">
-    <br> 
-    <ul>
-      <li> <b>NOMBRE DEL LUGAR</b>  - obra, <span class="text-gray-400">donde expusimos / Ciudad, Pais</span></li>
-      <li> <b>NOMBRE DEL LUGAR</b>  - obra, <span class="text-gray-400">donde expusimos / Ciudad, Pais</span></li>
-      <br>
-      <br>
-    </ul>
-
-    <h3 class="font-bold text-base">2019</h3>  
-    <hr class="mt-2 w-1/4 m-auto"> 
-    <br> 
-    <ul>
-      <li> <b>NOMBRE DEL LUGAR</b>  - obra, <span class="text-gray-400">donde expusimos / Ciudad, Pais</span></li>
-      <li> <b>NOMBRE DEL LUGAR</b>  - obra, <span class="text-gray-400">donde expusimos / Ciudad, Pais</span></li>
-      <br>
-    </ul>
-
-    <h3 class="font-bold text-base">2018</h3>   
-    <hr class="mt-2 w-1/4 m-auto">
-    <br> 
-    <ul>
-      <li> <b>NOMBRE DEL LUGAR</b>  - obra, <span class="text-gray-400">donde expusimos / Ciudad, Pais</span></li>
-      <li> <b>NOMBRE DEL LUGAR</b>  - obra, <span class="text-gray-400">donde expusimos / Ciudad, Pais</span></li>
-      <br>
-      <br>
-    </ul>
-
-  </div>
-
-</div>
-
-<!-- FOOTER INSERTADO -->  
-<div id="footer"></div>
-<!-- FOOTER INSERTADO --> 
-
-
-
-</body>
+    <!-- FOOTER INSERTADO -->
+    <div id="footer"></div>
+    <!-- FOOTER INSERTADO -->
+  </body>
 </html>

@@ -2,7 +2,7 @@ window.onload = function() {
   document.getElementById("header").innerHTML = 
   `
   <!-- HEADER -->
-  <div class="text-center mt-2">
+  <div class="text-center mt-8">
     <a href="/" class="font-bold text-2xl m-1 hover:text-gray-500 sm:text-5xl"> MURU 7.8</a>
     <hr class="mt-2 w-3/4 m-auto">
   </div>
