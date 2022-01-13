@@ -11,8 +11,8 @@ window.onload = function() {
   <div class="grid grid-cols-2 gap-2 text-lg font-bold text-center mt-3 m-auto md:grid-cols-6">
     <a href="index.html" class="hover:text-gray-500">PROYECTOS</a>
     <a href="./acerca-de.html" class="hover:text-gray-500">ACERCA DE</a>
-    <a href="./quienes-somos.html" class="hover:text-gray-500">QUIENES SOMOS</a>
-    <a href="./bitacora.html" class="hover:text-gray-500">BITACORA</a>
+    <a href="./quienes-somos.html" class="hover:text-gray-500">QUIÉNES SOMOS</a>
+    <a href="./bitacora.html" class="hover:text-gray-500">BITÁCORA</a>
     <a href="./tienda.html" class="hover:text-gray-500">TIENDA</a>
     <a href="./contacto.html" class="hover:text-gray-500">CONTACTO</a>
 
