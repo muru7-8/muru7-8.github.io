@@ -27,7 +27,7 @@ window.onload = function() {
 </div>
 <br>
 <hr class="mt-2 w-3/4 m-auto">
-<p class="text-center text-base text-gray-500">MURU 7.8  - 2022</p>
+<p class="text-center text-base text-gray-400">MURU 7.8  - 2022</p>
 `
 ;
 
