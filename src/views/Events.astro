@@ -1,0 +1,21 @@
+---
+import LayoutView from "../layouts/LayoutView.astro";
+import EventsInfo from "../components/EventsInfo.astro";
+import { CONTENT_EVENTS } from "../constants/content";
+---
+
+<LayoutView title="Events" id="events">
+  <div class="mt-10">
+    {
+      CONTENT_EVENTS.map((item) => (
+        <EventsInfo
+          year={item.year}
+          title={item.title}
+          description={item.description}
+          img={item.img}
+          link={item.link}
+        />
+      ))
+    }
+  </div>
+</LayoutView>
