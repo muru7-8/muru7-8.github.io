@@ -63,7 +63,7 @@ export const CONTENT_EVENTS = [
     year: "2024",
     title: "Toda La Teoría Del Universo",
     description:
-      "Cristalizaciones Namiki participated in the collective exhibition, Obras audiovisuales de las cosmogonías del tecnoceno, curated by Gabriel Munguía, for the Latin American Festival of Arts and Technologies “Toda La Teoría Del Universo”. Chile",
+      "Cristalizaciones Namiki participated in the collective exhibition, Obras Audiovisuales de las Cosmogonías del Tecnoceno, curated by Gabriela Munguía, for the Latin American Festival of Arts and Technologies “Toda La Teoría Del Universo”. Chile",
     img: "../assets/img/tltdu.jpg",
     link: "https://www.instagram.com/p/C1vOzAvx_OG/?hl=es&img_index=8",
   },

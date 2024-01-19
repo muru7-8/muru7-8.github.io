@@ -10,7 +10,9 @@ interface Props {
 const { href, title, year, category, img } = Astro.props;
 ---
 
-<div class="my-12 h-56 text-right transition hover:text-secondary">
+<div
+  class="my-12 h-56 text-right transition hover:text-secondary hover:scale-105"
+>
   <a href={href}>
     <img class="object-cover h-full w-full" src={img} alt="" />
     <p class="text-center text-lg font-medium mt-3">

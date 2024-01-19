@@ -15,7 +15,7 @@ const { title, year, img, description, link } = Astro.props;
   <h3 class="text-center font-semibold mb-2 text-xl text-primary">
     {title}
   </h3>
-  <div class="flex">
+  <div class="flex flex-col md:flex-row">
     <div class="flex flex-col p-2">
       <p class="text-justify mb-2">
         {description}
@@ -33,6 +33,6 @@ const { title, year, img, description, link } = Astro.props;
         )
       }
     </div>
-    <img src={img} alt="" class="w-1/2 p-2" />
+    <img src={img} alt="" class="w-full md:w-1/2 p-2" />
   </div>
 </div>
