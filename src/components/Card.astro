@@ -1,0 +1,23 @@
+---
+interface Props {
+  title: string;
+  year: string;
+  category: string;
+  href: string;
+  img: string;
+}
+
+const { href, title, year, category, img } = Astro.props;
+---
+
+<div class="my-12 h-56 text-right transition hover:text-secondary">
+  <a href={href}>
+    <img class="object-cover h-full w-full" src={img} alt="" />
+    <p class="text-center text-lg font-medium mt-3">
+      {title}
+    </p>
+    <p class="text-center text-primary text-sm uppercase">
+      <span class="font-bold">{year}</span> - {category}
+    </p>
+  </a>
+</div>

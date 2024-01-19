@@ -1,0 +1,21 @@
+---
+import LayoutView from "../layouts/LayoutView.astro";
+import { CONTENT_INDEX } from "../constants/content.js";
+import Card from "../components/Card.astro";
+---
+
+<LayoutView title="Projects" id="projects">
+  <div class="grid grid-cols-1 gap-6 px-4 mb-10 md:grid-cols-2">
+    {
+      CONTENT_INDEX.map((content) => (
+        <Card
+          title={content.title}
+          year={content.year}
+          category={content.category}
+          img={content.img}
+          href={content.href}
+        />
+      ))
+    }
+  </div>
+</LayoutView>
